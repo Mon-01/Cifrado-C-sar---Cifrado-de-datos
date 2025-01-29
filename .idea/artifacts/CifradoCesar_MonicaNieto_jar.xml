@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CifradoCesar_MonicaNieto:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CifradoCesar_MonicaNieto_jar</output-path>
+    <root id="archive" name="CifradoCesar_MonicaNieto.jar">
+      <element id="module-output" name="CifradoCesar_MonicaNieto" />
+    </root>
+  </artifact>
+</component>
