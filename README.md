@@ -19,3 +19,15 @@ En el bucle for pasamos el texto introducido por el usuario a un array de tipo C
 Desde nuevochar restamos el caracter actual del array con base y le sumamos el desplazamiento que ha escogido el usuario, esto nos dará el valor del cifrado. Con esta cifra hacemos una operación módulo **%26** para que el valor no esté fuera de rango y le sumamos la base para pasar el valor a char de nuevo. Finalmente, añadimos nuevoCaracter a cifrado y una vez termine el bucle se devuelve cifrado al main.
 
 En la clase Descifrar tenemos el método descifrar, método inverso de cifrar. Aquí simplemente invocamos al método cifrar pasándole por el parámetro desplazamiento _26-(desplazamiento % 26)_, de esta manera hará el mismo proceso explicado previamente de forma invertida y descifrando el texto.
+
+-Dependencias utilizadas
+Al ser un programa de cifrado de datos sencillo, únicamente se usan bibliotecas estándar del JDK, por este motivo no se ha utilizado ninguna dependencia externa.
+
+-Bibliotecas utilizadas
+1. java.util.Scanner
+2. java.lang.StringBuilder
+3. java.lang.Character
+4. java.lang.System
+
+-Requisitos
+Compatible con cualquier versión de Java 8 o superior.
